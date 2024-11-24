@@ -30,3 +30,8 @@ function mystery(n) {
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
+
+since we call mystery(n/3) 3 times it runs n/3 times based on what n is we can assume that 
+it would be $3T(n/3)$ and since the for loops will run n*n*n and we can apply that logic to 
+the first for loop as well that makes it $n^5$ so if each opperation is unit time and its
+added to mystery(n/3) then you would get $3T(n/3) + T(n^5)$.
