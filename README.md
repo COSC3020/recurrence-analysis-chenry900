@@ -35,3 +35,8 @@ since we call mystery(n/3) 3 times it runs n/3 times based on what n is we can a
 it would be $3T(n/3)$ and since the for loops will run n*n*n and we can apply that logic to 
 the first for loop as well that makes it $n^5$ so if each opperation is unit time and its
 added to mystery(n/3) then you would get $3T(n/3) + T(n^5)$.
+
+if the loop k runs for n*n times and loop j runs n times with loop i running those loops n*n times then
+the total times the loop runs is n*n*n*n*n or $n^5$ times. The other line is a recursive call that runs
+n/3 times and since it is called 3 times the total time run is 3T(n/3) and since you have to add the loops
+it becomes 3T(n/3) + T(n^5).
