@@ -39,4 +39,4 @@ added to mystery(n/3) then you would get $3T(n/3) + T(n^5)$.
 if the loop k runs for n*n times and loop j runs n times with loop i running those loops n*n times then
 the total times the loop runs is n*n*n*n*n or $n^5$ times. The other line is a recursive call that runs
 n/3 times and since it is called 3 times the total time run is 3T(n/3) and since you have to add the loops
-it becomes 3T(n/3) + T(n^5).
+it becomes 3T(n/3) + n^5. So when you solve it the run time is O(n).
